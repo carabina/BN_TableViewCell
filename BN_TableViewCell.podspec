@@ -38,6 +38,8 @@ Pod::Spec.new do |s|
   s.dependency 'BN_Globle'
   s.dependency 'BN_Category'
 
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
