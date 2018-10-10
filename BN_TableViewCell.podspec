@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BN_TableViewCell"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "UITableViewCell相关封装."
 
   # This description is used to generate tags and improve search results.
@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
   s.dependency 'BN_Kit'
   s.dependency 'BN_Globle'
   s.dependency 'BN_Category'
+  s.dependency 'BN_UIView'
 
   s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 
