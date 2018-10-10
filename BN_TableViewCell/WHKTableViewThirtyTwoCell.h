@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 #import "UITableViewCell+AddView.h"
 
 @interface WHKTableViewThirtyTwoCell : UITableViewCell

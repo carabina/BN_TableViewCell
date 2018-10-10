@@ -5,11 +5,6 @@ Pod::Spec.new do |s|
   s.version      = "1.1.0"
   s.summary      = "UITableViewCell相关封装."
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
                     UITableViewCell相关封装.
                    DESC
@@ -37,7 +32,7 @@ Pod::Spec.new do |s|
   s.dependency 'BN_Kit'
   s.dependency 'BN_Globle'
   s.dependency 'BN_Category'
-  s.dependency 'BN_UIView'
+  # s.dependency 'BN_UIView'
 
   s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 
