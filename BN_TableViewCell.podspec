@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BN_TableViewCell"
-  s.version      = "1.1.2"
+  s.version      = "1.1.3"
   s.summary      = "UITableViewCell相关封装."
 
   s.description  = <<-DESC
